@@ -1,0 +1,41 @@
+.nav{
+    display:flex;
+    background-color: beige;
+    height: 60px;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+
+.search{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.search input,button{
+   height:25px;
+   border-radius: 10px;
+   
+}
+
+ img{
+    width: 200px;
+}
+
+@media screen and (max-width:600px ) {
+   .nav{
+    height:50px;
+    width:100%;
+   }
+
+   img{
+    width:150px;
+   }
+
+   .search input,button{
+    height:20px;
+    border-radius: 10px;
+    
+ }
+   }

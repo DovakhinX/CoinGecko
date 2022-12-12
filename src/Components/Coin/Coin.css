@@ -1,0 +1,122 @@
+.infor{
+    display: flex;
+}
+
+.card{
+    background-color: beige;
+    border-radius: 15px;
+    margin:35px;
+    padding:5px;
+    width:950px
+}
+
+.coinhead{
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.quick{
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    border-radius: 15px;
+    width:350px;
+    padding:19px;
+    margin:35px;
+    align-items: center;
+    
+}
+
+.quick-head{
+    font-weight: 900;
+    font-size: 23px;
+    text-decoration:underline dotted rgb(4, 4, 4) 4px;
+
+}
+
+.subhead{
+    font-weight: 700;
+    font-size: 18px;
+    
+    text-decoration:underline solid rgb(4, 4, 4) 2px;
+
+}
+
+.datKey{
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 20px;
+    
+    
+}
+.header img{
+    width:60px;
+}
+
+.details{
+    display: flex;
+    padding: 15px;
+
+    
+    justify-content:left;
+    
+   
+    
+    
+}
+
+.des{
+    font-size: 23px;
+
+}
+
+.charting{
+    background-color: beige;
+    margin:35px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    padding-bottom: 80px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    
+}
+
+
+@media screen and (max-width:600px ) {
+.quick{
+    display: none;
+}
+
+.charting{
+    height: 270px;
+}
+
+.header img{
+    width:40px;
+}
+
+.card{
+    width:500px;
+}
+
+.coinhead{
+    font-size: 22px;
+}
+
+.des{
+    font-size: 15px;
+
+}
+}
