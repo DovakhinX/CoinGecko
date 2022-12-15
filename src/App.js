@@ -12,11 +12,16 @@ function App() {
 
   //Gets Market data
   async function fetchMarketData() {
-    const res = await fetch(
+    try{  const res = await fetch(
       `${API}coins/markets?vs_currency=inr&order=market_cap_desc&per_page=20&page=1&sparkline=false`
     );
     const data = await res.json();
     setData(data);
+  }catch(err){
+      console.log(err);
+
+    }
+  
   }
 
   return (

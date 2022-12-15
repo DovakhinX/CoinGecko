@@ -93,6 +93,14 @@
     
 }
 
+.empty{
+    display:flex;
+    justify-content: center;
+    background-color: beige;
+    margin:50px;
+    border-radius: 10px;
+}
+
 
 @media screen and (max-width:600px ) {
 .quick{
