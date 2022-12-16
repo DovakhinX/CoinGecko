@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Chart.css";
 
 import { Bar } from "react-chartjs-2";
+// eslint-disable-next-line 
 import { Chart as ChartJS } from "chart.js/auto";
 import axios from "axios";
 import { useLocation } from "react-router-dom";
@@ -41,6 +42,7 @@ function Chart() {
 
   useEffect(() => {
     fetchData();
+    // eslint-disable-next-line 
   }, [term]);
 
   const fetchData = () => {

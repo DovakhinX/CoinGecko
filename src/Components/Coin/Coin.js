@@ -14,6 +14,7 @@ function Coin() {
 
   useEffect(() => {
     fetchData();
+    // eslint-disable-next-line 
   }, [term]);
 
   const fetchData = () => {
