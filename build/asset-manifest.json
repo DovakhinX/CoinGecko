@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dd933ee8.css",
+    "main.js": "/static/js/main.e6724155.js",
+    "static/media/geckologo.webp": "/static/media/geckologo.e6b44fa734bf3ee118ef.webp",
+    "index.html": "/index.html",
+    "main.dd933ee8.css.map": "/static/css/main.dd933ee8.css.map",
+    "main.e6724155.js.map": "/static/js/main.e6724155.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd933ee8.css",
+    "static/js/main.e6724155.js"
+  ]
+}
